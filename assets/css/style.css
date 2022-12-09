@@ -6,17 +6,91 @@
 }
 
 /* Element selectors */
-.gradient {
-    background-image: linear-gradient(
-        rgba(18, 110, 231, 0.3) 0%,
-        rgba(36, 24, 150, 0.6) 100%
-      );
-}
 
+body {
+    background-image: "./assets/images/layered-peaks-haikei.svg";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 p {
     font-size: 32px;
 }
+
+/* Experimental Cube */
+
+.cube {
+    width: 20px;
+    height: 20px;
+    transform-style: preserve-3d;
+    margin: 50px;
+  }
+  .face {
+    width: 100px;
+    height: 100px;
+    background: #05520c;
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    opacity: 0.75;
+    transform: translateZ(50px);
+  }
+  .front {
+    transform: translateZ(50px);
+  }
+  .back {
+    transform: translateZ(-50px) rotateY(180deg);
+  }
+  .left {
+    transform: translateX(-50px) rotateY(-90deg);
+  }
+  .right {
+    transform: translateX(50px) rotateY(90deg);
+  }
+  .top {
+    transform: translateY(-50px) rotateX(90deg);
+  }
+  .bottom {
+    transform: translateY(50px) rotateX(-90deg);
+  }
+
+  .cube {
+    width: 20px;
+    height: 20px;
+    transform-style: preserve-3d;
+    animation: turn 5s linear infinite;
+    margin: 50px;
+    margin-left: 750px;
+  }
+  .face {
+    width: 100px;
+    height: 100px;
+    background: #031f03;
+    border: 2px solid rgb(2, 2, 2);
+    position: absolute;
+    opacity: 0.95;
+    transform: translateZ(50px);
+  }
+  .front {
+    transform: translateZ(50px);
+  }
+  .back {
+    transform: translateZ(-50px) rotateY(180deg);
+  }
+  .left {
+    transform: translateX(-50px) rotateY(-90deg);
+  }
+  .right {
+    transform: translateX(50px) rotateY(90deg);
+  }
+  .top {
+    transform: translateY(-50px) rotateX(90deg);
+  }
+  .bottom {
+    transform: translateY(50px) rotateX(-90deg);
+  }
+
+
 
 
 /* Class selectors */
@@ -53,11 +127,12 @@ p {
 
 .hero {
     height: 400px;
-    width: 100%;
+    width: 50%;
     margin-bottom: 25px;
     background-image: url("/assets/images/pexels-felix-mittermeier-1146134.jpg");
     background-size: cover;
     background-position: center;
+    margin-left: 400px;
 }
 
 
