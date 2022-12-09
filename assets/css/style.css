@@ -14,6 +14,10 @@ body {
     background-size: cover;
 }
 
+article {
+    margin-top: 100px;
+}
+
 p {
     font-size: 32px;
 }
@@ -58,7 +62,7 @@ p {
     width: 20px;
     height: 20px;
     transform-style: preserve-3d;
-    animation: turn 5s linear infinite;
+    animation: turn 10s linear infinite;
     margin: 50px;
     margin-left: 750px;
   }
@@ -125,15 +129,18 @@ p {
     margin-left: 25px;
 }
 
-.hero {
-    height: 400px;
-    width: 50%;
-    margin-bottom: 25px;
-    background-image: url("/assets/images/pexels-felix-mittermeier-1146134.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-left: 400px;
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+
 }
+
+.justify-center {
+    justify-content: center;
+  }
 
 
 .footer {
