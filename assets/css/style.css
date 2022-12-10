@@ -158,3 +158,41 @@ header nav ul li {
   height: 230vh;
 }
 
+@media screen and (max-width: 992px) {
+  /* on tablets, set columns to only be 50% of the width and not grow */
+  .pg2-box {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* select the last child to grow to full width if it has space to grow */
+  .pg2-box:last-child {
+    flex-grow: 1;
+  }
+
+  .vl {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .vl:last-child {
+    flex-grow: 1;
+  }
+
+}
+
+/* media query for larger screens */
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .pg2-box {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+  .vl {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+}
