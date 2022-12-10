@@ -58,24 +58,24 @@ p {
     text-align: center;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }   
 
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -112,20 +112,15 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 10px;
+  align-items: center;
+  
 
 }
 
 .pg2-images {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-    margin-top: 100px;
+    width: 100vh;
     justify-content: space-evenly;
-    border: #000000;
-    border-style: dashed;
+
 }
 
 .pg-3 {
