@@ -174,3 +174,9 @@ We are making the product card not growable, not shrinkable, and with an initial
   padding: 10px;
   flex: 0 0 400px;
 }
+
+
+.vl {
+  border-right: 6px solid rgb(0, 0, 0);
+  height: 230vh;
+}
