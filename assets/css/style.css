@@ -101,8 +101,8 @@ p {
 .header {
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #000000;
-    color: #fdfdfd;
+    background-color: #0a410f;
+    color: #bbb6b6;
     text-align: center;
 }
 
@@ -135,6 +135,7 @@ p {
     flex-direction: row;
     margin-left: -1.5rem;
     margin-right: -1.5rem;
+    margin-top: 100px;
 
 }
 
