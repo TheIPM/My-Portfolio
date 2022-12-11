@@ -27,6 +27,7 @@ p {
     transform-style: preserve-3d;
     margin: 50px;
     margin-left: 750px;
+
   }
   .face {
     width: 200px;
@@ -34,7 +35,7 @@ p {
     background: #05520c;
     border: 2px solid rgb(0, 0, 0);
     position: absolute;
-    opacity: 0.75;
+    opacity: 0.25;
     transform: translateZ(100px);
   }
   .front {
@@ -92,8 +93,6 @@ header nav ul li {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  border: #000000;
-  border-style: solid;
 }
 
 .pg-box {
@@ -122,24 +121,23 @@ header nav ul li {
 
 .pg2-box {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
-  flex-shrink: 2;
-  
+  justify-content: space-around;
 }
+
 
 .card {
   flex: 1 0 0;
   padding: 10px;
-  text-align: center;
   border-left: black 6px solid;
 }
 
+
 .card img {
-  width: 100%;
-  min-width: 400px;
+  width: 70%;
 }
+
+
 
 
 .pg-3 {
