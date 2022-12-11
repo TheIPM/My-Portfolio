@@ -1,6 +1,14 @@
 /* Universal selector */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
 html {
   scroll-behavior: smooth;
   font-family: 'Poppins', sans-serif;
@@ -137,6 +145,13 @@ header nav ul li {
   border-radius: 10%;
   align-content: center;
   justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+
+}
+
+form {
+  margin-top: 50Px;
 
 }
 
@@ -156,6 +171,7 @@ header nav ul li {
 .vl {
   border-right: 6px solid rgb(0, 0, 0);
   height: 230vh;
+  border
 }
 
 @media screen and (max-width: 992px) {
