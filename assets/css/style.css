@@ -128,15 +128,12 @@ header nav ul li {
   background-color: #bdbec4;
   border: #000000;
   border-style: solid;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+
 }
 
 .pg2-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 
