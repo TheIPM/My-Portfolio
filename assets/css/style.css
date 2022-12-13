@@ -138,9 +138,9 @@ header nav ul li {
 
 
 .card {
-  flex: 1 0 0;
   padding: 10px;
-  border-left: black 6px solid;
+  float: left;
+  width: auto
 }
 
 
