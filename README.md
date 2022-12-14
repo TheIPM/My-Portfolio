@@ -15,7 +15,6 @@ I intend to consistently go back to this page and implement the new things I lea
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
 
 ## Installation
 
@@ -23,18 +22,15 @@ N/A
 
 ## Usage
 
-When viewing this portfolio you can interact with the navigation bar on the top right to take you to different sections of the page. When on the projects page you can click on the image of the horiseon, to be taken to that page. 
+When viewing this portfolio you can interact with the navigation bar on the top right to take you to different sections of the page. When on the projects page you can click on the image that says horiseon, to be taken to that page. If you resize the page the images rearrange themselves to have 2 on each row. Finally you can also click on my logo to be taken to my github page
 
-![alt text](./assets/images/screenshot.png)
+![image of logo](./assets/images/Screenshot%20of%20logo.png)
 
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Below is the youtube video used to learn how to make the cube.
+https://www.youtube.com/watch?v=qxWojgKtP0c&ab_channel=SalowStudios
 
 ## License
 
