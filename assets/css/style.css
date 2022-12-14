@@ -175,6 +175,7 @@ form {
   margin-top: 50Px;
   display: flex;
   flex-direction: column;
+  width: 50%;
 
 }
 
